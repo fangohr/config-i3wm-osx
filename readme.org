@@ -1,0 +1,9 @@
+#+TITLE: i3wm on OSX
+
+Config files for yabai and skhd .
+
+Based on settings as recommended in the excellent write-up at
+https://cbrgm.net/post/2021-05-5-setup-macos/ by @cbrgm .
+
+
+
