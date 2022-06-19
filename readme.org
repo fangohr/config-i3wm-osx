@@ -14,13 +14,17 @@ https://cbrgm.net/post/2021-05-5-setup-macos/ by @cbrgm .
 Installation:
 
 ~brew install koekeishiya/formulae/yabai~
+
 ~brew install koekeishiya/formulae/skhd~
+
 ~brew install cmacrae/formulae/spacebar~
 
 brew services start spacebar
 
 ~brew services start skhd~
+
 ~brew services start yabai~
+
 ~brew start spacebar~
 
 
