@@ -63,7 +63,7 @@ alt + shift - 0 : yabai -m space --balance
 # change layout of desktop
 alt - e : yabai -m space --layout bsp
 alt - l : yabai -m space --layout float
-alt - s : yabai -m space --layout stack
+alt - t : yabai -m space --layout stack  # change HF: s -> t
 
 # cycle through stack windows
 # alt - p : yabai -m window --focus stack.next || yabai -m window --focus south
@@ -206,10 +206,11 @@ alt - return : open -n /Applications/iTerm.app
 # fast focus desktop
 # cmd + alt - x : yabai -m space --focus recent
 # cmd + alt - 1 : yabai -m space --focus 1
+# cmd + alt - 2 : yabai -m space --focus 2
 
 # send window to desktop and follow focus
-# shift + cmd - z : yabai -m window --space next; yabai -m space --focus next
-# shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
+shift + cmd - z : yabai -m window --space next; yabai -m space --focus next
+shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
 
 # focus monitor
 # ctrl + alt - z  : yabai -m display --focus prev
