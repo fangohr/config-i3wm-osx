@@ -25,6 +25,6 @@ brew services start spacebar
 
 ~brew services start yabai~
 
-~brew start spacebar~
+~brew start start spacebar~
 
 
